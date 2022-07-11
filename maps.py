@@ -13,8 +13,8 @@ import json
 
 
 def downloading_of_file(geojson_file):   #скачивание архива
-    user = 'ginfrost'
-    password = '901290129012chux'
+    user = 'your username'
+    password = 'your password'
     api = SentinelAPI(user, password, 'https://scihub.copernicus.eu/dhus')
     with open('input.geojson', 'r') as f:
         json_data = json.load(f)
