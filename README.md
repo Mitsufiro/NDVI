@@ -3,9 +3,9 @@ NDVI (Normalized Difference Vegetation Index) — нормализованный
 
 Веб-сервис, который выгружает космические снимки и
 определяет NDVI на поле, предоставляя REST API.
-Для начала необходимо установить GDAL https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal , скачанный файл установите в вашей виртуальной среде с помощью`: `pip install 'file name'`, 
+Для начала необходимо установить GDAL https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal , скачанный файл установите в вашей виртуальной среде с помощью`:  - - `pip install 'file name'`, 
 далее:
-`pip install -r requirements.txt`
+- `pip install -r requirements.txt`
 Снимки со спутника загружаются с помощью библиотеки sentinelsat в файле maps.py и далее используя различные каналы(инфракрасный и доинфракрасный диапазоны) космического снимка рассчитывается NDVI по формуле.
 
  ![alt text](https://github.com/Mitsufiro/NDVI/blob/main/zoomed_image.png)
